@@ -12,3 +12,4 @@ spec:
       url: https://github.com/sample-accelerators/tanzu-java-web-app
       ref:
         branch: main
+
