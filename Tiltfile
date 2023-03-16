@@ -1,4 +1,4 @@
-SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='083459807443.dkr.ecr.us-east-1.amazonaws.com/0f208c80-bd53-11ed-8112-0e4c20fd0161/tap-supply-chain/tanzu-java-web-app-workload-tap-workload')
+SOURCE_IMAGE = os.getenv("SOURCE_IMAGE", default='public.ecr.aws/j7e6c3t8/tap-demo/tanzu-java-web-app-workload-tap-workload')
 LOCAL_PATH = os.getenv("LOCAL_PATH", default='.')
 NAMESPACE = os.getenv("NAMESPACE", default='tap-workload')
 
