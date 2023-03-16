@@ -16,7 +16,7 @@ public class HelloController {
 		SimpleDateFormat formatter= new SimpleDateFormat("yyyy-MM-dd 'at:' HH:mm:ss z");
 		Date date = new Date(System.currentTimeMillis());
  		// return formatter.format(date) + "Greetings from Spring Boot + Tanzu!";
-		return "Greetings from Spring Boot + Tanzu at " + formatter.format(date);
+		return "Greetings from Spring Boot + Tanzu at " + formatter.format(date) + "!!";
 		// return "Greetings from Spring Boot + Tanzu on Zoom!";
 	}
 
