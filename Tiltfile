@@ -18,6 +18,6 @@ k8s_custom_deploy(
     ]
 )
 
-k8s_resource('tanzu-java-web-app', port_forwards=["8080:8080"],
+k8s_resource('hello-app', port_forwards=["8080:8080"],
             extra_pod_selectors=[{'serving.knative.dev/service': 'hello-app'}])
 allow_k8s_contexts('arn:aws:eks:us-east-1:083459807443:cluster/cluster-eks-tap')
